@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa de Serviços Gratuitos</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js" defer></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Mapa de Serviços Gratuitos da Comunidade</h1>
+        <p class="subtitulo">Projeto acadêmico</p>
+        <img src="oportunidade.png" alt="" class="imagem-canto">
+    </header>
+
+    <main>
+        <section class="filtros" aria-label="Filtros de serviços">
+            <input type="search" id="busca" placeholder="Buscar serviço, endereço..." aria-label="Buscar serviços">
+            <select id="municipio" aria-label="Filtrar por município">
+                <option value="">Todos os municípios</option>
+                <option value="Biritiba Mirim">Biritiba Mirim</option>
+                <option value="Salesópolis">Salesópolis</option>
+            </select>
+            <select id="categoria" aria-label="Filtrar por categoria">
+                <option value="">Todas as categorias</option>
+                <option value="Assistência Social">Assistência Social</option>
+                <option value="Saúde">Saúde</option>
+                <option value="Emprego">Emprego</option>
+                <option value="Educação">Educação</option>
+            </select>
+            <button id="btnLimpar" type="button">Limpar filtros</button>
+            <button id="btnAdd" type="button" aria-expanded="false" aria-controls="formAdd">Adicionar Serviço</button>
+        </section>
+
+        <div id="formAdd" class="hidden">
+            <h3>Adicionar Novo Serviço</h3>
+            <p class="aviso-cadastro">Os serviços adicionados aqui ficam salvos somente neste navegador.</p>
+            <p id="erro" role="alert"></p>
+            <input id="addNome" type="text" placeholder="Nome do serviço" aria-label="Nome do serviço">
+            <select id="addMunicipio" aria-label="Município do serviço">
+                <option value="">Selecione o município</option>
+                <option value="Biritiba Mirim">Biritiba Mirim</option>
+                <option value="Salesópolis">Salesópolis</option>
+            </select>
+            <select id="addCategoria" aria-label="Categoria do serviço">
+                <option value="">Categoria</option>
+                <option value="Assistência Social">Assistência Social</option>
+                <option value="Saúde">Saúde</option>
+                <option value="Emprego">Emprego</option>
+                <option value="Educação">Educação</option>
+            </select>
+            <input id="addEndereco" type="text" placeholder="Endereço" aria-label="Endereço">
+            <input id="addDescricao" type="text" placeholder="Descrição" aria-label="Descrição">
+            <input id="addLink" type="url" placeholder="Link (opcional, https://...)" aria-label="Link de informações">
+            <button id="btnSalvar" type="button">Salvar</button>
+        </div>
+
+        <p id="contador" class="contador" aria-live="polite"></p>
+        <section id="lista-servicos" class="lista" aria-label="Serviços disponíveis"></section>
+    </main>
+    <footer class="rodape">
+        <p>Os serviços listados pertencem às instituições responsáveis. Este projeto tem finalidade educacional e organiza informações publicamente disponíveis. Confirme endereços e atendimentos antes de se deslocar.</p>
+    </footer>
+</body>
+</html>

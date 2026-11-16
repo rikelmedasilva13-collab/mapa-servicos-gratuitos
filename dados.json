@@ -1,0 +1,106 @@
+[
+  {
+    "nome": "CRAS – Centro de Referência de Assistência Social",
+    "categoria": "Assistência Social",
+    "endereco": "Rua Gildo Sevalli, 257 – Centro",
+    "descricao": "Atendimento social a famílias em vulnerabilidade; orientação para programas sociais, inscrição no Cadastro Único, apoio familiar e convivência comunitária.",
+    "link": "https://www.biritibamirim.sp.gov.br/",
+    "municipio": "Biritiba Mirim"
+  },
+  {
+    "nome": "CREAS – Centro de Referência Especializado de Assistência Social",
+    "categoria": "Assistência Social",
+    "endereco": "Rua Gildo Sevalli, 363 – Centro",
+    "descricao": "Atendimento especializado a pessoas/famílias em situação de risco ou violação de direitos; apoio psicológico, jurídico e social.",
+    "link": "https://www.biritibamirim.sp.gov.br/",
+    "municipio": "Biritiba Mirim"
+  },
+  {
+    "nome": "Unidade Básica de Saúde – CS III de Biritiba Mirim",
+    "categoria": "Saúde",
+    "endereco": "Av. Maria José de Siqueira Melo, 301 – Jardim Takebe",
+    "descricao": "Atendimento médico ambulatorial, exames, pré-natal, odontologia e outras consultas básicas via SUS.",
+    "link": "https://ubs.med.br/",
+    "municipio": "Biritiba Mirim"
+  },
+  {
+    "nome": "UBS Irohy",
+    "categoria": "Saúde",
+    "endereco": "Estrada Mogi-Salesópolis, s/n – Bairro Irohy",
+    "descricao": "Unidade de atenção básica para consultas médicas, dispensação de medicamentos e atendimento ambulatorial.",
+    "link": "https://ubs.med.br/",
+    "municipio": "Biritiba Mirim"
+  },
+  {
+    "nome": "Ambulatório de Atenção Biopsicossocial de Biritiba Mirim",
+    "categoria": "Saúde / Saúde Mental",
+    "endereco": "Rua Airton Sena da Silva, 80 – Jardim Alvorada A",
+    "descricao": "Atendimento em saúde mental/psicossocial pelo município; apoio psicológico e ambulatorial pelo SUS.",
+    "link": "https://ubs.med.br/",
+    "municipio": "Biritiba Mirim"
+  },
+  {
+    "nome": "Programa Trabalho e Renda – Prefeitura de Biritiba Mirim",
+    "categoria": "Emprego",
+    "endereco": "Rua Gildo Sevalli, 257 – Centro (Secretaria de Assistência Social)",
+    "descricao": "Intermediação de ocupações temporárias, cursos de capacitação, bolsa-auxílio para desempregados residentes no município.",
+    "link": "https://www.biritibamirim.sp.gov.br/",
+    "municipio": "Biritiba Mirim"
+  },
+  {
+    "nome": "CRAS – Centro de Referência de Assistência Social",
+    "categoria": "Assistência Social",
+    "endereco": "Rua Vereador João Freire de Almeida, 43 – Bairro Jardim Nídia, Salesópolis, SP",
+    "descricao": "Atendimento social a famílias em vulnerabilidade; cadastro para programas sociais, orientação e apoio comunitário.",
+    "link": "https://www.salesopolis.sp.gov.br/",
+    "municipio": "Salesópolis"
+  },
+  {
+    "nome": "Secretaria de Desenvolvimento Social – Posto de Cadastro Único / Proteção Social Especial",
+    "categoria": "Assistência Social / Proteção Social",
+    "endereco": "Rua Expedicionário Abílio dos Passos, 199 – Centro, Salesópolis, SP",
+    "descricao": "Serviços de proteção social especial, inclusão em programas sociais e apoio a famílias em situação de risco.",
+    "link": "https://www.salesopolis.sp.gov.br/",
+    "municipio": "Salesópolis"
+  },
+  {
+    "nome": "Conselho Tutelar de Salesópolis",
+    "categoria": "Assistência Social / Proteção de Direitos",
+    "endereco": "Praça Padre João Menendes, 14 – Centro, Salesópolis, SP",
+    "descricao": "Atendimento de casos de crianças e adolescentes em risco, orientação e proteção de direitos, plantão social.",
+    "link": "https://www.salesopolis.sp.gov.br/",
+    "municipio": "Salesópolis"
+  },
+  {
+    "nome": "UBS Centro – Saúde Pública",
+    "categoria": "Saúde",
+    "endereco": "Rua Nossa Senhora de Fátima – Centro, Salesópolis, SP",
+    "descricao": "Atendimento médico generalista, consultas pelo SUS, vacinação, exames básicos de saúde.",
+    "link": "https://www.salesopolis.sp.gov.br/",
+    "municipio": "Salesópolis"
+  },
+  {
+    "nome": "UBS Nossa Senhora do Remédio – Saúde Pública",
+    "categoria": "Saúde",
+    "endereco": "Rua Catarina Teresa Kasper, 99 – Bairro Nossa Senhora do Remédio, Salesópolis, SP",
+    "descricao": "Unidade de saúde para população da região; consultas, atendimento médico, vacinas e medicamentos via SUS.",
+    "link": "https://www.salesopolis.sp.gov.br/",
+    "municipio": "Salesópolis"
+  },
+  {
+    "nome": "Ambulatório / Fisioterapia – Saúde Pública",
+    "categoria": "Saúde / Reabilitação",
+    "endereco": "Rua José Candelária, 152 – Salesópolis, SP",
+    "descricao": "Serviços de fisioterapia e reabilitação pública, atendimento gratuito pelo município.",
+    "link": "https://www.salesopolis.sp.gov.br/",
+    "municipio": "Salesópolis"
+  },
+  {
+    "nome": "Centro Multidisciplinar de Educação e Saúde / AEE",
+    "categoria": "Educação / Assistência Especial",
+    "endereco": "Rua Vereador João Freire de Almeida, 62 – Jardim Nídia, Salesópolis, SP",
+    "descricao": "Atendimento especializado em educação e saúde para pessoas com necessidades especiais; apoio psicossocial e pedagógico.",
+    "link": "https://www.salesopolis.sp.gov.br/",
+    "municipio": "Salesópolis"
+  }
+]
